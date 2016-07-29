@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-    <h1>\{{ msg }}</h1>
+    <a v-link="{ path: '/counter' }">Go to counter page</a>
+    <a v-link="{ path: '/page-b' }">Go to page B</a>
+
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
+import store from './store';
+
 export default {
-  data () {
-    return {
-      // note: changing this line won't causes changes
-      // with hot-reload because the reloaded component
-      // preserves its current state and we are modifying
-      // its initial state.
-      msg: 'Hello Vue!'
-    }
-  }
+  store: store,
+  replace: false,
 }
 </script>
 
