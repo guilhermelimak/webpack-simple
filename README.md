@@ -1,4 +1,4 @@
-# vue-webpack-simple-boilerplate
+# vue-webpack-vuex-router-boilerplate
 
 > A simple Webpack setup for `vue-loader` for quick prototyping.
 
@@ -16,7 +16,11 @@ $ npm run dev
 
 ### What's Included
 
-- `npm run dev`: Webpack + `vue-loader` with proper config for source maps & hot-reload.
+##### Vuex
+##### Vue router
+##### Sass
+
+- `npm run dev`: Webpack + `vue-loader` with proper config for source maps, sass & hot-reload.
 
 - `npm run build`: Production build with HTML/CSS/JS minification.
 
