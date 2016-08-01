@@ -8,6 +8,6 @@ export function configRouter (router) {
     },
     '/page-b': {
       component: PageB,
-    }
+    },
   });
 }

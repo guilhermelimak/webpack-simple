@@ -13,7 +13,7 @@ import store from './store';
 export default {
   store: store,
   replace: false,
-}
+};
 </script>
 
 <style>
