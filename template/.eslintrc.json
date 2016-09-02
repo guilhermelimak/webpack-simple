@@ -7,7 +7,9 @@
   "extends": "airbnb-base",
   "parserOptions": {
       "sourceType": "module",
-      "experimentalObjectRestSpread": true
+      "ecmaFeatures": {
+          "experimentalObjectRestSpread": true
+    }
   },
   "globals": {
     "describe": true,
